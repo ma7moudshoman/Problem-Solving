@@ -12,6 +12,9 @@ public class Digit {
         value=scanner.nextInt();
         size=scanner.nextInt();
         for (int i =0 ; i<size;i++){
+            if ( value==0){
+                System.out.println(0);
+            continue;}
             while (value != 0){
                 int number= value %10;
                 System.out.print(number + " ");
