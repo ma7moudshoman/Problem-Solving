@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class SomeSums {
 
     public static void main(String[] args) {
+        System.out.println("Enter your numbers");
         Scanner scanner = new Scanner(System.in);
 
         int num;        // 20
