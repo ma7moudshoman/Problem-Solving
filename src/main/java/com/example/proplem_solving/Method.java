@@ -10,9 +10,11 @@ public class Method {
         Scanner input=new Scanner(System.in);
 
         System.out.println("Hello You Are Welcome ");
-        drawline('&',20);
+        drawline('h',20);
         System.out.println(" Do You Good With Our Presentation  ");
 drawline('$', 16);
+        System.out.println("HELLO WHO ARE YOU ");
+        drawline('*',13);
 
 // **********************************************
 
