@@ -1,5 +1,4 @@
 package com.example.proplem_solving;
-
 import java.util.Scanner;
 
 public class MaxandMin {
@@ -9,35 +8,34 @@ public class MaxandMin {
 
         int n1, n2, n3;
         n1 = inout.nextInt();
-        n2 = inout.nextInt();  //&& n2>n1  &&n3>n2&&n3>n1
+        n2 = inout.nextInt();
         n3 = inout.nextInt();
+
         if (n1 >= n2 && n1 >= n3) {
-            System.out.println(" large number is : " + n1);
+            System.out.println("Largest number is: " + n1);
 
             if (n2 >= n3) {
-                System.out.println("Small number is :" + n2);
-            } else
-                System.out.println(n1);
+                System.out.println("Smallest number is: " + n3);
+            } else {
+                System.out.println("Smallest number is: " + n2);
+            }
+        } else if (n2 >= n1 && n2 >= n3) {
+            System.out.println("Largest number is: " + n2);
 
-
-
-        } else if (n2 > n1 && n2 > n3) {
-            System.out.println("large number is : " + n2);
-
-        if (n1 > n3) {
-            System.out.println("Small number is :" + n3);
-        } else
-            System.out.println(n1);
-        }
-
-        else if (n3 >= n2 && n3 >= n1) {
-            System.out.println("large number is : " + n3);
-
+            if (n1 >= n3) {
+                System.out.println("Smallest number is: " + n3);
+            } else {
+                System.out.println("Smallest number is: " + n1);
+            }
+        } else {
+            System.out.println("Largest number is: " + n3);
 
             if (n1 >= n2) {
-                System.out.println("Small number is :" + n1);
-            } else
-                System.out.println(n2);
+                System.out.println("Smallest number is: " + n2);
+            } else {
+                System.out.println("Smallest number is: " + n1);
+            }
         }
     }
 }
+
